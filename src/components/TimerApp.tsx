@@ -11,7 +11,10 @@ export default function TimerApp() {
           <CardTitle>時間</CardTitle>
         </CardHeader>
         <CardContent className={"flex justify-center"}>
-          <TimerDisplay />
+          <TimerDisplay
+            minutes={25}
+            seconds={11}
+          />
         </CardContent>
       </Card>
     </div>
